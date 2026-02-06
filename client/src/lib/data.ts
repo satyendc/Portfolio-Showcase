@@ -1,55 +1,57 @@
 import { Code2, Brain, Rocket, Database, Layout, Smartphone } from "lucide-react";
 
 export const PROFILE = {
-  name: "Alex Dev",
-  role: "Software Engineer / AI & Data Science",
-  tagline: "Building intelligent digital experiences that scale.",
-  bio: "I am a passionate Full Stack Developer with a specialization in AI and Data Science. I bridge the gap between robust software engineering and cutting-edge machine learning to build applications that are not just functional, but intelligent.",
-  email: "hello@alexdev.com",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  location: "San Francisco, CA"
+  name: "Riya Jagtap",
+  role: "AI-Focused Software Engineer",
+  tagline: "Designing intelligent, scalable solutions that merge reasoning and automation.",
+  bio: "AI-Focused Software Engineer with 2+ years of experience in backend and cloud-native system development. Skilled in Python, C/C++, and Java, with hands-on experience across OCI Functions, containerized deployments, and automation pipelines. Currently exploring Generative AI, LLM-based applications, and prompt engineering.",
+  email: "jagtapriya20@gmail.com",
+  github: "https://github.com", // Placeholder
+  linkedin: "https://www.linkedin.com/in/riyajagtap/",
+  location: "Pune, India"
 };
 
 export const SKILLS = [
   {
-    category: "Frontend",
-    icon: Layout,
+    category: "Programming & Frameworks",
+    icon: Code2,
     items: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Tailwind CSS", level: 95 },
-      { name: "Framer Motion", level: 85 },
+      { name: "Python", level: 95 },
+      { name: "Java", level: 90 },
+      { name: "C/C++", level: 85 },
+      { name: "FastAPI", level: 90 },
+      { name: "LangChain", level: 85 },
+      { name: "REST APIs", level: 95 },
     ]
   },
   {
-    category: "Backend",
-    icon: Database,
-    items: [
-      { name: "Node.js / Express", level: 90 },
-      { name: "Python / Django", level: 85 },
-      { name: "PostgreSQL", level: 88 },
-      { name: "GraphQL", level: 80 },
-    ]
-  },
-  {
-    category: "AI & Data",
+    category: "AI & Machine Learning",
     icon: Brain,
     items: [
-      { name: "TensorFlow / PyTorch", level: 85 },
-      { name: "Data Analysis (Pandas)", level: 92 },
+      { name: "Generative AI", level: 90 },
+      { name: "LLMs (OpenAI, Gemini)", level: 85 },
+      { name: "Prompt Engineering", level: 90 },
       { name: "NLP", level: 80 },
-      { name: "OpenAI API", level: 90 },
+      { name: "TensorFlow", level: 75 },
     ]
   },
   {
-    category: "Tools & DevOps",
+    category: "Cloud & MLOps",
     icon: Rocket,
     items: [
-      { name: "Docker / Kubernetes", level: 75 },
-      { name: "AWS", level: 80 },
-      { name: "Git / CI/CD", level: 95 },
-      { name: "Figma", level: 70 },
+      { name: "OCI Functions", level: 85 },
+      { name: "Docker & Kubernetes", level: 80 },
+      { name: "Jenkins", level: 75 },
+      { name: "CI/CD Pipelines", level: 85 },
+    ]
+  },
+  {
+    category: "Data & Databases",
+    icon: Database,
+    items: [
+      { name: "MySQL", level: 90 },
+      { name: "MongoDB", level: 85 },
+      { name: "Data Processing", level: 90 },
     ]
   }
 ];
@@ -57,73 +59,51 @@ export const SKILLS = [
 export const EXPERIENCE = [
   {
     id: 1,
-    role: "Senior Full Stack Engineer",
-    company: "TechNova Solutions",
-    period: "2021 - Present",
-    description: "Leading the development of scalable SaaS platforms. Architected a microservices-based backend handling 50k+ daily users. Mentoring junior developers and implementing code quality standards."
-  },
-  {
-    id: 2,
-    role: "AI Engineer",
-    company: "DataMind Analytics",
-    period: "2019 - 2021",
-    description: "Developed predictive models for customer churn using Python and Scikit-learn. Integrated ML models into a React dashboard for real-time visualization."
-  },
-  {
-    id: 3,
-    role: "Web Developer Intern",
-    company: "Creative Studio",
-    period: "2018 - 2019",
-    description: "Collaborated with designers to translate Figma designs into pixel-perfect frontend code. Optimized website performance, achieving a 98/100 Lighthouse score."
+    role: "Associate Consultant",
+    company: "Oracle, Pune",
+    period: "July 2023 - Present",
+    description: "Developed Java-based data extraction utilities improving migration accuracy by 30%. Extended Oracle BRM functionalities using C-based custom opcodes, reducing manual effort by 20%. Automated event rerating pipelines reducing processing time by 40%."
   }
 ];
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "AI Resume Builder",
-    description: "An intelligent resume generator that uses GPT-4 to tailor content based on job descriptions. Features real-time PDF generation.",
-    tech: ["Next.js", "OpenAI API", "Tailwind", "Stripe"],
+    title: "RAG-based GenAI Assistant",
+    description: "Built a Retrieval-Augmented Generation (RAG) system for contextual document intelligence for BRM OCOMC component using LangChain and Vector Databases.",
+    tech: ["Python", "LangChain", "Vector Database", "LLM", "Cline", "MCP"],
     links: { demo: "#", github: "#" },
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: 2,
-    title: "EcoTrack Analytics",
-    description: "Dashboard for monitoring corporate carbon footprints. Visualizes complex datasets with interactive charts and maps.",
-    tech: ["React", "D3.js", "Python", "PostgreSQL"],
+    title: "Suspicious Activity Detection",
+    description: "Designed a real-time video surveillance system for anomaly detection using deep learning (CNN + LRCN). Achieved 20% higher detection accuracy.",
+    tech: ["Deep Learning", "Python", "CNN", "LRCN"],
     links: { demo: "#", github: "#" },
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    id: 3,
-    title: "Nebula Chat",
-    description: "Real-time collaboration platform with voice and video support. Built with WebRTC and WebSockets for low latency.",
-    tech: ["TypeScript", "Socket.io", "WebRTC", "Redis"],
-    links: { demo: "#", github: "#" },
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    id: 4,
-    title: "CryptoSentinel",
-    description: "Automated trading bot with sentiment analysis from Twitter and Reddit data sources.",
-    tech: ["Python", "FastAPI", "React", "Docker"],
-    links: { demo: "#", github: "#" },
-    image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1557597774-9d2739f85a76?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    school: "Stanford University",
-    year: "2019",
-    details: "Specialization in Artificial Intelligence"
+    degree: "B.Tech in Computer Engineering",
+    school: "Vishwakarma Institute of Technology, Pune",
+    year: "2023",
+    details: "CGPA: 9.13"
   },
   {
-    degree: "Bachelor of Science in Software Engineering",
-    school: "University of Washington",
-    year: "2017",
-    details: "Dean's List, 3.9 GPA"
+    degree: "Diploma in Computer Technology",
+    school: "K.K. Wagh Polytechnic, Nashik",
+    year: "2020",
+    details: "Percentage: 95.26%"
   }
+];
+
+export const CERTIFICATIONS = [
+  "Oracle Cloud Infrastructure Generative AI Professional",
+  "Oracle Cloud Infrastructure AI Foundation",
+  "Oracle Cloud Infrastructure Data Science Professional",
+  "Oracle AI Agent Studio Foundations Associate",
+  "Oracle Certified Associate, Java SE 8 Programmer"
 ];

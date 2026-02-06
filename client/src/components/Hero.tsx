@@ -52,15 +52,15 @@ export function Hero() {
                 size="lg" 
                 variant="outline" 
                 className="border-primary/20 hover:bg-primary/10 text-lg h-14 px-8 rounded-xl"
+                asChild
               >
-                Download CV <Download className="ml-2 h-5 w-5" />
+                <a href="/resume.pdf" download="Riya_Jagtap_Resume.pdf">
+                  Download CV <Download className="ml-2 h-5 w-5" />
+                </a>
               </Button>
             </div>
 
             <div className="flex gap-6 text-muted-foreground">
-              <a href={PROFILE.github} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
-                <Github className="h-6 w-6" />
-              </a>
               <a href={PROFILE.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors hover:scale-110 transform duration-200">
                 <Linkedin className="h-6 w-6" />
               </a>
@@ -80,8 +80,6 @@ export function Hero() {
               {/* Abstract decorative graphic */}
               <div className="absolute inset-0 bg-gradient-to-tr from-primary to-blue-600 rounded-3xl opacity-20 blur-2xl transform rotate-6 animate-pulse" />
               <div className="absolute inset-0 bg-card border border-white/10 rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center">
-                 {/* Placeholder for Hero Image - using Unsplash for scenic dev setup */}
-                 {/* computer code setup minimalist dark */}
                  <img 
                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
                    alt="Developer Workspace"
@@ -89,7 +87,7 @@ export function Hero() {
                  />
                  <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                    <div className="font-mono text-sm text-primary">
-                     &lt;Coder /&gt;
+                     &lt;AI Engineer /&gt;
                    </div>
                  </div>
               </div>
@@ -102,7 +100,7 @@ export function Hero() {
               >
                 <div className="flex items-center gap-3">
                   <div className="h-10 w-10 rounded-full bg-green-500/20 flex items-center justify-center text-green-500">
-                    <span className="font-bold">5+</span>
+                    <span className="font-bold">2+</span>
                   </div>
                   <div>
                     <p className="text-xs text-muted-foreground">Years of</p>
@@ -118,11 +116,11 @@ export function Hero() {
               >
                 <div className="flex items-center gap-3">
                   <div className="h-10 w-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-500">
-                    <span className="font-bold">50+</span>
+                    <span className="font-bold">GenAI</span>
                   </div>
                   <div>
-                    <p className="text-xs text-muted-foreground">Projects</p>
-                    <p className="font-bold">Completed</p>
+                    <p className="text-xs text-muted-foreground">Focus</p>
+                    <p className="font-bold">Specialist</p>
                   </div>
                 </div>
               </motion.div>
