@@ -42,7 +42,7 @@ export function Navbar() {
             <div className="bg-primary/10 p-2 rounded-lg border border-primary/20 group-hover:border-primary/50 transition-colors">
               <Code2 className="h-6 w-6 text-primary" />
             </div>
-            <span className="font-display font-bold text-xl tracking-tight">Alex<span className="text-primary">Dev</span></span>
+            <span className="font-display font-bold text-xl tracking-tight">Riya<span className="text-primary">Jagtap</span></span>
           </Link>
 
           {/* Desktop Nav */}
