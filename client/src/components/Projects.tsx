@@ -45,11 +45,10 @@ export function Projects() {
               </p>
               
               <div className="flex gap-4">
-                <Button variant="default" size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
-                  <ExternalLink className="w-4 h-4" /> Live Demo
-                </Button>
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Github className="w-4 h-4" /> Code
+                <Button variant="outline" size="sm" className="gap-2" asChild>
+                  <a href={project.links.github} target="_blank" rel="noopener noreferrer">
+                    <Github className="w-4 h-4" /> Code
+                  </a>
                 </Button>
               </div>
             </div>
