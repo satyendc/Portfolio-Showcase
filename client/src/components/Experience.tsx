@@ -41,7 +41,7 @@ export function Experience() {
                   </span>
                 </div>
                 
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed font-normal text-justify whitespace-pre-line">
                   {exp.description}
                 </p>
               </div>

@@ -62,7 +62,7 @@ export const EXPERIENCE = [
     role: "Associate Consultant",
     company: "Oracle, Pune",
     period: "July 2023 - Present",
-    description: "Developed Java-based data extraction utilities improving migration accuracy by 30%. Extended Oracle BRM functionalities using C-based custom opcodes, reducing manual effort by 20%. Automated event rerating pipelines reducing processing time by 40%."
+    description: "• Developed Java-based data extraction utilities for BRM and legacy systems, converting database records into XML payloads for downstream processing and migration, improving data reliability and migration accuracy by 30%.\n• Extended Oracle BRM functionalities by developing C-based custom opcodes, automating client-specific business logic and reducing manual operational effort by 20%.\n• Configured and automated event rerating pipelines using Shell and Groovy scripts integrated with OCOMC, improving rerate accuracy and reducing processing time by ~40%.\n• Built reusable debugging and monitoring components for operational automation, improving traceability and reducing issue resolution time by 20%.\n• Collaborated on OCI-based deployments and distributed mediation systems (OCOMC) to streamline data and event workflows, enhancing system stability and increasing batch throughput."
   }
 ];
 
