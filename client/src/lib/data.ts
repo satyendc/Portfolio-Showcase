@@ -70,7 +70,7 @@ export const PROJECTS = [
   {
     id: 1,
     title: "RAG-based GenAI Assistant",
-    description: "Built a Retrieval-Augmented Generation (RAG) system for contextual document intelligence for BRM OCOMC component using LangChain and Vector Databases.",
+    description: "• Built a Retrieval-Augmented Generation (RAG) system for contextual document intelligence for BRM OCOMC component.\n• Implemented prompt-engineered LLM workflows for context-aware reasoning aligned with GenAI agent architectures.",
     tech: ["Python", "LangChain", "Vector Database", "LLM", "Cline", "MCP"],
     links: { demo: "#", github: "#" },
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"

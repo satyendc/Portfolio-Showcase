@@ -40,7 +40,7 @@ export function Projects() {
               <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">
                 {project.title}
               </h3>
-              <p className="text-muted-foreground mb-6 line-clamp-3">
+              <p className="text-muted-foreground mb-6 line-clamp-none whitespace-pre-line">
                 {project.description}
               </p>
               
