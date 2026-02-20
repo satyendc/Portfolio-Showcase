@@ -1,5 +1,7 @@
 import { z } from 'zod';
-import { insertMessageSchema, messages } from './schema';
+import { insertMessageSchema, messages, type InsertMessage } from './schema';
+
+export type { InsertMessage };
 
 export const errorSchemas = {
   validation: z.object({
