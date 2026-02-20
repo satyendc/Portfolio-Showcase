@@ -73,7 +73,7 @@ export const PROJECTS = [
     description: "• Built a Retrieval-Augmented Generation (RAG) system for contextual document intelligence for BRM OCOMC component.\n• Implemented prompt-engineered LLM workflows for context-aware reasoning aligned with GenAI agent architectures.",
     tech: ["Python", "LangChain", "Vector Database", "LLM", "Cline", "MCP"],
     links: { demo: "#", github: "#" },
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
+    image: "/src/assets/images/project-ai.jpg"
   },
   {
     id: 2,
@@ -81,7 +81,7 @@ export const PROJECTS = [
     description: "• Designed a real-time video surveillance system for anomaly detection using deep learning.\n• Achieved ~20% higher detection accuracy and reduced false alarms - improved security response time.",
     tech: ["Deep Learning", "Python", "CNN", "LRCN"],
     links: { demo: "#", github: "#" },
-    image: "https://images.unsplash.com/photo-1557597774-9d2739f85a76?auto=format&fit=crop&q=80&w=800"
+    image: "/src/assets/images/project-surveillance.jpg"
   }
 ];
 
