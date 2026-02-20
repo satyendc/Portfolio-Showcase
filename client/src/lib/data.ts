@@ -77,8 +77,8 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Suspicious Activity Detection",
-    description: "Designed a real-time video surveillance system for anomaly detection using deep learning (CNN + LRCN). Achieved 20% higher detection accuracy.",
+    title: "Video Surveillance Anomaly Detection",
+    description: "• Designed a real-time video surveillance system for anomaly detection using deep learning.\n• Achieved ~20% higher detection accuracy and reduced false alarms - improved security response time.",
     tech: ["Deep Learning", "Python", "CNN", "LRCN"],
     links: { demo: "#", github: "#" },
     image: "https://images.unsplash.com/photo-1557597774-9d2739f85a76?auto=format&fit=crop&q=80&w=800"
